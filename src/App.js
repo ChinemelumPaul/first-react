@@ -29,7 +29,7 @@ const App = () => {
             <input 
               placeholder="Search for movies"
               value={look}
-              onChange={(e) => setSearch(e.target.value)}
+              onChange={(e) => setLook(e.target.value)}
             />   
              <button
                onClick={() => searchMovies(look)}
